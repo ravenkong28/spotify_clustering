@@ -61,21 +61,21 @@ This analysis supports data-driven playlist curation, marketing targeting, and d
 
 ## 🔁 RapidMiner Replication
 
-![RapidMiner Workflow](images/rapidminer_1.jpg)
+![RapidMiner Workflow](images/rapidminer_1.png)
 - Identical 7-feature pipeline was implemented in RapidMiner.
 - Normalization with Z-Transformation.
 - K-Means with `k = 4`, results matched Python interpretation.
-![Inertia Cluster](images/python_1.1.jpg)
-![Silhoutte Cluster](images/python_1.2.jpg)
+![Inertia Cluster](images/python_1.1.png)
+![Silhoutte Cluster](images/python_1.2.png)
 - Cluster model, centroid table, and line plots used for validation.
 
 ---
 
 ## 📌 Results
 
-![Python Results](images/python_1.jpg)
-![RapidMiner Results](images/rapidminer_1.1.jpg)
-![RapidMiner Cluster Graph](images/rapidminer_1.2.jpg)
+![Python Results](images/python_1.png)
+![RapidMiner Results](images/rapidminer_1.1.png)
+![RapidMiner Cluster Graph](images/rapidminer_1.2.png)
 | Cluster | Description |
 |---------|-------------|
 | Cluster 0 | Average exposure songs, mid-level streams |
